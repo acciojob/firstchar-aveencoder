@@ -1,10 +1,9 @@
 function firstChar(text) {
-   if(text.length == 0){
-	   return "";
+text = text.trim();
+   if (text.length == 0) {
+       return "";
    }
-  else{
-	  return  text.trim()[0];
-  }	
+   return text[0];	
 }
 
 // Do not change the code below
